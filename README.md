@@ -17,7 +17,7 @@ The objective is to demonstrate:
 ## Live Deliverables
 
 - 📊 **Dashboard**: https://raedfgk-marketing-assignment-appdashboard-0a8awb.streamlit.app/
-- 🎥 **Walkthrough Video**: (add your video link here)
+- 🎥 **Walkthrough Video**: https://drive.google.com/file/d/1302ttU73QPKPUmV7Om2hGzM_O95IACSP/view?usp=sharing
 
 ---
 
