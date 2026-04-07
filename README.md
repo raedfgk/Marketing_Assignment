@@ -29,25 +29,25 @@ marketing_assignment/
 ├── requirements.txt
 │
 ├── app/
-│ └── dashboard.py # Streamlit dashboard
+│   └── dashboard.py
 │
 ├── data/
-│ ├── 01_facebook_ads.csv
-│ ├── 02_google_ads.csv
-│ ├── 03_tiktok_ads.csv
-│ ├── ads_unified.csv # Cleaned + standardized dataset
-│ └── ads_reporting.csv # Final reporting dataset
+│   ├── 01_facebook_ads.csv
+│   ├── 02_google_ads.csv
+│   ├── 03_tiktok_ads.csv
+│   ├── ads_unified.csv
+│   └── ads_reporting.csv
 │
 ├── db/
-│ └── marketing.db # DuckDB database
+│   └── marketing.db
 │
 └── src/
-├── download_data.py # Fetch raw datasets
-├── build_database.py # Load + unify data in DuckDB
-├── inspect_data.py # Initial exploration
-├── explore_results.py # Aggregations / sanity checks
-├── validate_metrics.py # Metric validation
-└── qa_checks.py # Data quality checks
+    ├── build_database.py
+    ├── download_data.py
+    ├── explore_results.py
+    ├── inspect_data.py
+    ├── qa_checks.py
+    └── validate_metrics.py
 
 
 ---
