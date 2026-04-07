@@ -16,7 +16,7 @@ The objective is to demonstrate:
 
 ## Live Deliverables
 
-- 📊 **Dashboard**: (add your Streamlit link here)
+- 📊 **Dashboard**: https://raedfgk-marketing-assignment-appdashboard-0a8awb.streamlit.app/
 - 🎥 **Walkthrough Video**: (add your video link here)
 
 ---
