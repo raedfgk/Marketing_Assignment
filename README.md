@@ -30,25 +30,25 @@ marketing_assignment/
 ├── requirements.txt
 │
 ├── app/
-│   └── dashboard.py
+│   └── dashboard.py                # Streamlit dashboard (main UI for analysis)
 │
 ├── data/
-│   ├── 01_facebook_ads.csv
-│   ├── 02_google_ads.csv
-│   ├── 03_tiktok_ads.csv
-│   ├── ads_unified.csv
-│   └── ads_reporting.csv
+│   ├── 01_facebook_ads.csv        # Raw Facebook Ads dataset
+│   ├── 02_google_ads.csv          # Raw Google Ads dataset
+│   ├── 03_tiktok_ads.csv          # Raw TikTok Ads dataset
+│   ├── ads_unified.csv            # Standardized dataset across all platforms
+│   └── ads_reporting.csv          # Final analytics-ready dataset with derived metrics
 │
 ├── db/
-│   └── marketing.db
+│   └── marketing.db               # DuckDB database containing all tables
 │
 └── src/
-    ├── build_database.py
-    ├── download_data.py
-    ├── explore_results.py
-    ├── inspect_data.py
-    ├── qa_checks.py
-    └── validate_metrics.py
+    ├── build_database.py          # Creates DuckDB tables + unified/reporting datasets
+    ├── download_data.py           # Downloads raw CSV files programmatically
+    ├── explore_results.py         # Aggregations and exploratory analysis
+    ├── inspect_data.py            # Initial schema inspection and sanity checks
+    ├── qa_checks.py               # Data quality checks (nulls, duplicates, consistency)
+    └── validate_metrics.py        # Verifies correctness of computed KPIs
 ```
 
 ---
