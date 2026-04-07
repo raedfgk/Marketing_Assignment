@@ -23,6 +23,7 @@ The objective is to demonstrate:
 
 ## Project Structure
 
+```{Bash}
 marketing_assignment/
 │
 ├── README.md
@@ -48,7 +49,7 @@ marketing_assignment/
     ├── inspect_data.py
     ├── qa_checks.py
     └── validate_metrics.py
-
+```
 
 ---
 
